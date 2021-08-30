@@ -1,0 +1,23 @@
+[
+  {
+    "ime": "Nejc",
+    "priimek": "Novak",
+    "opis": "Ne maram paradiznika",
+    "starost": 21,
+    "instagram": "@nejcnovak"
+  },
+  {
+    "ime": "Ana",
+    "priimek": "Dolenc",
+    "opis": "Rada imam paradiznik",
+    "starost": 22,
+    "instagram": "@ananovak"
+  },
+  {
+    "ime": "Julija",
+    "priimek": "Primic",
+    "opis": "Rada poslusam dobro glasbo",
+    "starost": 22,
+    "instagram": "@julijaprimic"
+  }
+]
