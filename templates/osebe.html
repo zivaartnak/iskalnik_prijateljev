@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="stili/stili.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+<h1>Vsi uporabniki: </h1>
+<a href="/">← Nazaj na naslovno stran</a>
+
+% for oseba in podatki:
+  <div class="oseba border border-primary">
+    <h1>{{ oseba["ime"] }} {{ oseba["priimek"] }}</h1>
+    <p><span class="odebeljeno">Starost:</span> {{ oseba["starost"] }}</p>
+    <p><span class="odebeljeno">Opis:</span> {{ oseba["opis"] }}</p>
+    <p><span class="odebeljeno">Dodaj me na instagramu:</span> <a href="https://www.instagram.com/{{ oseba["instagram"][1:] }}/">{{ oseba["instagram"] }}</a></p>
+  </div>
+% end
+
+</body>
+</html>
