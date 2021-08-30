@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+}
+
+h1, a, p {
+   margin: 20px;
+}
+
+.obrazec-registracija>input {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.oseba {
+  margin: 20px;
+  padding: 20px;
+}
+
+.nadpis {
+  margin-left: 20px;
+  font-style: italic;
+}
+
+.odebeljeno {
+  font-weight: bold;
+}
